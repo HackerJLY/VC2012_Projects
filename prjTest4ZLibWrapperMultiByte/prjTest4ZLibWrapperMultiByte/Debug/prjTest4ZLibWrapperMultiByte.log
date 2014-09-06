@@ -1,0 +1,21 @@
+﻿生成启动时间为 2014-7-9 15:07:58。
+     1>项目“G:\Projects_Me\VC2012 Projects\prjTest4ZLibWrapperMultiByte\prjTest4ZLibWrapperMultiByte\prjTest4ZLibWrapperMultiByte.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\prjTest4ZLibWrapperMultiByte.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt /D _CRT_SECURE_NO_WARNINGS stdafx.cpp
+         stdafx.cpp
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\prjTest4ZLibWrapperMultiByte.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt /D _CRT_SECURE_NO_WARNINGS ..\Shared\driveinfo.cpp ..\Shared\FILEMISC.CPP ..\Shared\FolderDialog.cpp ..\ZipUnzip\Unzipper.cpp ..\ZipUnzip\Zipper.cpp prjTest4ZLibWrapperMultiByte.cpp prjTest4ZLibWrapperMultiByteDlg.cpp
+         prjTest4ZLibWrapperMultiByteDlg.cpp
+         prjTest4ZLibWrapperMultiByte.cpp
+         Zipper.cpp
+         Unzipper.cpp
+         FolderDialog.cpp
+         FILEMISC.CPP
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrappermultibyte\shared\filemisc.cpp(280): error C4996: 'mkdir': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _mkdir. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\direct.h(140) : 参见“mkdir”的声明
+         driveinfo.cpp
+         正在生成代码...
+     1>已完成生成项目“G:\Projects_Me\VC2012 Projects\prjTest4ZLibWrapperMultiByte\prjTest4ZLibWrapperMultiByte\prjTest4ZLibWrapperMultiByte.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:08.06

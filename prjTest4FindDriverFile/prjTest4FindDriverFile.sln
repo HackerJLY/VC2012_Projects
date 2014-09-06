@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "prjTest4FindDriverFile", "prjTest4FindDriverFile\prjTest4FindDriverFile.vcxproj", "{73A79F2D-8539-4B58-973D-80482D04BF59}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73A79F2D-8539-4B58-973D-80482D04BF59}.Debug|Win32.ActiveCfg = Debug|Win32
+		{73A79F2D-8539-4B58-973D-80482D04BF59}.Debug|Win32.Build.0 = Debug|Win32
+		{73A79F2D-8539-4B58-973D-80482D04BF59}.Debug|Win32.Deploy.0 = Debug|Win32
+		{73A79F2D-8539-4B58-973D-80482D04BF59}.Release|Win32.ActiveCfg = Release|Win32
+		{73A79F2D-8539-4B58-973D-80482D04BF59}.Release|Win32.Build.0 = Release|Win32
+		{73A79F2D-8539-4B58-973D-80482D04BF59}.Release|Win32.Deploy.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

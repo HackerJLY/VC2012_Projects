@@ -1,0 +1,22 @@
+﻿生成启动时间为 2014-3-26 10:52:48。
+     1>项目“G:\Projects_Me\VC2012 Projects\prjTest4VS2012\prjTest4VS2012\prjTest4VS2012.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\prjTest4VS2012.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\prjTest4VS2012.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt prjTest4VS2012.cpp prjTest4VS2012Dlg.cpp
+         prjTest4VS2012Dlg.cpp
+         prjTest4VS2012.cpp
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files\Windows Kits\8.0\bin\x86\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /l"0x0804" /IDebug\ /nologo /fo"Debug\prjTest4VS2012.res" prjTest4VS2012.rc 
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\Projects_Me\VC2012 Projects\prjTest4VS2012\Debug\prjTest4VS2012.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"G:\Projects_Me\VC2012 Projects\prjTest4VS2012\Debug\prjTest4VS2012.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\Projects_Me\VC2012 Projects\prjTest4VS2012\Debug\prjTest4VS2012.lib" /MACHINE:X86 Debug\prjTest4VS2012.res
+         Debug\prjTest4VS2012.obj
+         Debug\prjTest4VS2012Dlg.obj
+         Debug\stdafx.obj
+         prjTest4VS2012.vcxproj -> G:\Projects_Me\VC2012 Projects\prjTest4VS2012\Debug\prjTest4VS2012.exe
+     1>已完成生成项目“G:\Projects_Me\VC2012 Projects\prjTest4VS2012\prjTest4VS2012\prjTest4VS2012.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:25.34

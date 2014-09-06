@@ -1,0 +1,243 @@
+﻿生成启动时间为 2014-7-9 14:54:34。
+     1>项目“G:\Projects_Me\VC2012 Projects\prjTest4ZLibWrapper\prjTest4ZLibWrapper\prjTest4ZLibWrapper.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\prjTest4ZLibWrapper.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\prjTest4ZLibWrapper.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\Shared\driveinfo.cpp ..\Shared\FILEMISC.CPP ..\Shared\FolderDialog.cpp ..\ZipUnzip\Unzipper.cpp ..\ZipUnzip\Zipper.cpp prjTest4ZLibWrapper.cpp prjTest4ZLibWrapperDlg.cpp
+         prjTest4ZLibWrapperDlg.cpp
+         prjTest4ZLibWrapper.cpp
+         Zipper.cpp
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\zipunzip\zipper.cpp(52): error C2664: “_splitpath”: 不能将参数 1 从“LPCTSTR”转换为“const char *”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\zipunzip\zipper.cpp(59): error C2664: “CZipper::OpenZip”: 不能将参数 1 从“char [260]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\zipunzip\zipper.cpp(69): error C2664: “_splitpath”: 不能将参数 1 从“LPCTSTR”转换为“const char *”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\zipunzip\zipper.cpp(76): error C2664: “CZipper::OpenZip”: 不能将参数 1 从“char [260]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\zipunzip\zipper.cpp(90): error C2665: “strstr”: 2 个重载中没有一个可以转换所有参数类型
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(199): 可能是“const char *strstr(const char *,const char *)”
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(223): 或       “char *strstr(char *,const char *)”
+                 尝试匹配参数列表“(LPCTSTR, const char [4])”时
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\zipunzip\zipper.cpp(95): error C2665: “strchr”: 2 个重载中没有一个可以转换所有参数类型
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(148): 可能是“const char *strchr(const char *,int)”
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(217): 或       “char *strchr(char *,int)”
+                 尝试匹配参数列表“(LPCTSTR, char)”时
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\zipunzip\zipper.cpp(100): error C2664: “lstrcpyW”: 不能将参数 1 从“char [260]”转换为“LPWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\zipunzip\zipper.cpp(101): error C2664: “CZipper::PrepareSourcePath”: 不能将参数 1 从“char [260]”转换为“LPTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\zipunzip\zipper.cpp(109): error C2664: “_splitpath”: 不能将参数 1 从“LPCTSTR”转换为“const char *”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\zipunzip\zipper.cpp(116): error C2664: “lstrlenW”: 不能将参数 1 从“char [261]”转换为“LPCWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\zipunzip\zipper.cpp(116): error C2664: “_strnicmp”: 不能将参数 1 从“LPCTSTR”转换为“const char *”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\zipunzip\zipper.cpp(120): error C2664: “lstrlenW”: 不能将参数 1 从“char [261]”转换为“LPCWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\zipunzip\zipper.cpp(120): error C2664: “lstrcpyW”: 不能将参数 1 从“char [260]”转换为“LPWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\zipunzip\zipper.cpp(125): error C2665: “strstr”: 2 个重载中没有一个可以转换所有参数类型
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(199): 可能是“const char *strstr(const char *,const char *)”
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(223): 或       “char *strstr(char *,const char *)”
+                 尝试匹配参数列表“(LPCTSTR, const char [3])”时
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\zipunzip\zipper.cpp(126): error C2664: “lstrcpyW”: 不能将参数 1 从“char [260]”转换为“LPWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\zipunzip\zipper.cpp(128): error C2664: “lstrcpyW”: 不能将参数 1 从“char [260]”转换为“LPWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\zipunzip\zipper.cpp(157): error C2664: “CreateFileW”: 不能将参数 1 从“char [260]”转换为“LPCWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\zipunzip\zipper.cpp(206): error C2665: “strchr”: 2 个重载中没有一个可以转换所有参数类型
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(148): 可能是“const char *strchr(const char *,int)”
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(217): 或       “char *strchr(char *,int)”
+                 尝试匹配参数列表“(LPCTSTR, char)”时
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\zipunzip\zipper.cpp(212): error C2664: “lstrcpyW”: 不能将参数 1 从“char [260]”转换为“LPWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\zipunzip\zipper.cpp(213): error C2664: “CZipper::PrepareSourcePath”: 不能将参数 1 从“char [260]”转换为“LPTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\zipunzip\zipper.cpp(241): error C2664: “CreateFileW”: 不能将参数 1 从“char [260]”转换为“LPCWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\zipunzip\zipper.cpp(248): error C2664: “_splitpath”: 不能将参数 1 从“LPCTSTR”转换为“const char *”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\zipunzip\zipper.cpp(252): error C2664: “_makepath”: 不能将参数 3 从“LPCTSTR”转换为“const char *”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\zipunzip\zipper.cpp(303): error C2664: “lstrcpyW”: 不能将参数 1 从“char [260]”转换为“LPWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\zipunzip\zipper.cpp(304): error C2664: “CZipper::PrepareSourcePath”: 不能将参数 1 从“char [260]”转换为“LPTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\zipunzip\zipper.cpp(311): error C2664: “GetFileAttributesW”: 不能将参数 1 从“char [260]”转换为“LPCWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\zipunzip\zipper.cpp(335): error C2664: “lstrlenW”: 不能将参数 1 从“char [261]”转换为“LPCWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\zipunzip\zipper.cpp(339): error C2664: “lstrlenW”: 不能将参数 1 从“char [261]”转换为“LPCWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\zipunzip\zipper.cpp(339): error C2664: “lstrcpyW”: 不能将参数 1 从“char [260]”转换为“LPWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\zipunzip\zipper.cpp(343): error C2664: “lstrcatW”: 不能将参数 1 从“char [260]”转换为“LPWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\zipunzip\zipper.cpp(362): error C2664: “lstrcatW”: 不能将参数 1 从“char [260]”转换为“LPWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\zipunzip\zipper.cpp(368): error C2664: “FindFirstFileW”: 不能将参数 1 从“char [260]”转换为“LPCWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\zipunzip\zipper.cpp(377): error C2664: “_makepath”: 不能将参数 4 从“WCHAR [260]”转换为“const char *”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\zipunzip\zipper.cpp(381): error C2664: “CZipper::AddFolderToZip”: 不能将参数 1 从“char [260]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\zipunzip\zipper.cpp(384): error C2664: “bool CZipper::AddFileToZip(LPCTSTR,bool)”: 不能将参数 1 从“char [260]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\zipunzip\zipper.cpp(406): error C2664: “GetFullPathNameW”: 不能将参数 3 从“char [260]”转换为“LPWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\zipunzip\zipper.cpp(410): error C2664: “GetFileAttributesW”: 不能将参数 1 从“char [260]”转换为“LPCWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\zipunzip\zipper.cpp(426): error C2664: “_makepath”: 不能将参数 3 从“LPCTSTR”转换为“const char *”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\zipunzip\zipper.cpp(435): error C2665: “strchr”: 2 个重载中没有一个可以转换所有参数类型
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(148): 可能是“const char *strchr(const char *,int)”
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(217): 或       “char *strchr(char *,int)”
+                 尝试匹配参数列表“(LPTSTR, char)”时
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\zipunzip\zipper.cpp(441): error C2664: “lstrcpyW”: 不能将参数 1 从“char [260]”转换为“LPWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\zipunzip\zipper.cpp(443): error C2664: “_makepath”: 不能将参数 1 从“LPTSTR”转换为“char *”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+         Unzipper.cpp
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\zipunzip\unzipper.cpp(50): error C2664: “CUnzipper::UnzipTo”: 不能将参数 1 从“char [261]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\zipunzip\unzipper.cpp(100): error C2664: “GetFullPathNameW”: 不能将参数 3 从“char [260]”转换为“LPWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\zipunzip\unzipper.cpp(123): error C2664: “lstrcpyW”: 不能将参数 1 从“char [261]”转换为“LPWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\zipunzip\unzipper.cpp(160): error C2440: “=”: 无法从“char [261]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\zipunzip\unzipper.cpp(190): error C2664: “lstrcmpiW”: 不能将参数 2 从“char *”转换为“LPCWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\zipunzip\unzipper.cpp(222): error C2664: “lstrcmpiW”: 不能将参数 2 从“char *”转换为“LPCWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\zipunzip\unzipper.cpp(257): error C2664: “lstrlenW”: 不能将参数 1 从“char [261]”转换为“LPCWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\zipunzip\unzipper.cpp(277): error C2440: “=”: 无法从“char [261]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\zipunzip\unzipper.cpp(291): error C2664: “CUnzipper::CreateFolder”: 不能将参数 1 从“char [260]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\zipunzip\unzipper.cpp(305): error C2664: “_makepath”: 不能将参数 3 从“LPCTSTR”转换为“const char *”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\zipunzip\unzipper.cpp(308): error C2664: “CUnzipper::CreateFilePath”: 不能将参数 1 从“char [260]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\zipunzip\unzipper.cpp(317): error C2664: “CreateFileW”: 不能将参数 1 从“char [260]”转换为“LPCWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\zipunzip\unzipper.cpp(352): error C2664: “CUnzipper::SetFileModTime”: 不能将参数 1 从“char [260]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\zipunzip\unzipper.cpp(382): error C2664: “unzLocateFile”: 不能将参数 2 从“LPCTSTR”转换为“const char *”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\zipunzip\unzipper.cpp(404): error C2664: “lstrcmpiW”: 不能将参数 2 从“char [256]”转换为“LPCWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\zipunzip\unzipper.cpp(426): error C2664: “_strdup”: 不能将参数 1 从“LPCTSTR”转换为“const char *”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\zipunzip\unzipper.cpp(435): error C2664: “CUnzipper::CreateFolder”: 不能将参数 1 从“char *”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\zipunzip\unzipper.cpp(451): error C2664: “_strdup”: 不能将参数 1 从“LPCTSTR”转换为“const char *”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\zipunzip\unzipper.cpp(460): error C2664: “CUnzipper::CreateFolder”: 不能将参数 1 从“char *”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+         FolderDialog.cpp
+         FILEMISC.CPP
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\shared\filemisc.cpp(67): error C2664: “GetFileAttributesW”: 不能将参数 1 从“const char *”转换为“LPCWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\shared\filemisc.cpp(92): error C2664: “SetFileAttributesW”: 不能将参数 1 从“const char *”转换为“LPCWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\shared\filemisc.cpp(100): error C2664: “GetFileAttributesW”: 不能将参数 1 从“const char *”转换为“LPCWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\shared\filemisc.cpp(107): error C2664: “lstrlenW”: 不能将参数 1 从“const char *”转换为“LPCWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\shared\filemisc.cpp(142): error C2664: “DeleteFolderContents”: 不能将参数 1 从“CString”转换为“const char *”
+                 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\shared\filemisc.cpp(144): error C2664: “lstrlenW”: 不能将参数 1 从“const char *”转换为“LPCWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\shared\filemisc.cpp(167): error C2664: “GetFileAttributesW”: 不能将参数 1 从“const char *”转换为“LPCWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\shared\filemisc.cpp(174): error C2664: “SetFileAttributesW”: 不能将参数 1 从“const char *”转换为“LPCWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\shared\filemisc.cpp(175): error C2664: “RemoveDirectoryW”: 不能将参数 1 从“const char *”转换为“LPCWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\shared\filemisc.cpp(184): error C2664: “GetFileAttributesW”: 不能将参数 1 从“const char *”转换为“LPCWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\shared\filemisc.cpp(220): error C2664: “GetFolderSize”: 不能将参数 1 从“CString”转换为“const char *”
+                 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\shared\filemisc.cpp(247): error C2664: “int ATL::CStringT<BaseType,StringTraits>::Find(wchar_t,int) throw() const”: 不能将参数 1 从“const char [3]”转换为“wchar_t”
+                 with
+                 [
+                     BaseType=wchar_t,
+                     StringTraits=StrTraitMFC<wchar_t>
+                 ]
+                 没有使该转换得以执行的上下文
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\shared\filemisc.cpp(256): error C2664: “int ATL::CStringT<BaseType,StringTraits>::Find(wchar_t,int) throw() const”: 不能将参数 1 从“const char [3]”转换为“wchar_t”
+                 with
+                 [
+                     BaseType=wchar_t,
+                     StringTraits=StrTraitMFC<wchar_t>
+                 ]
+                 没有使该转换得以执行的上下文
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\shared\filemisc.cpp(280): error C2664: “mkdir”: 不能将参数 1 从“CString”转换为“const char *”
+                 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\shared\filemisc.cpp(305): error C2664: “GetFileAttributesW”: 不能将参数 1 从“const char *”转换为“LPCWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\shared\filemisc.cpp(310): error C2664: “lstrlenW”: 不能将参数 1 从“const char *”转换为“LPCWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\shared\filemisc.cpp(348): error C2665: “CopyFolder”: 2 个重载中没有一个可以转换所有参数类型
+                 g:\projects_me\vc2012 projects\prjtest4zlibwrapper\shared\filemisc.h(39): 可能是“bool CopyFolder(const char *,const char *,HANDLE,BOOL)”
+                 尝试匹配参数列表“(CString, CString, HANDLE)”时
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\shared\filemisc.cpp(379): error C2664: “CreateFileW”: 不能将参数 1 从“const char *”转换为“LPCWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+         driveinfo.cpp
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\shared\driveinfo.cpp(64): error C2664: “ATL::CStringT<BaseType,StringTraits>::CStringT(const VARIANT &)”: 不能将参数 1 从“const char [1]”转换为“const VARIANT &”
+                 with
+                 [
+                     BaseType=wchar_t,
+                     StringTraits=StrTraitMFC<wchar_t>
+                 ]
+                 原因如下: 无法从“const char [1]”转换为“const VARIANT”
+                 无构造函数可以接受源类型，或构造函数重载决策不明确
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\shared\driveinfo.cpp(88): error C2593: “operator =”不明确
+                 c:\program files\microsoft visual studio 11.0\vc\atlmfc\include\cstringt.h(1267): 可能是“ATL::CStringT<BaseType,StringTraits> &ATL::CStringT<BaseType,StringTraits>::operator =(const char *)”
+                 with
+                 [
+                     BaseType=wchar_t,
+                     StringTraits=StrTraitMFC<wchar_t>
+                 ]
+                 c:\program files\microsoft visual studio 11.0\vc\atlmfc\include\cstringt.h(1259): 或       “ATL::CStringT<BaseType,StringTraits> &ATL::CStringT<BaseType,StringTraits>::operator =(const wchar_t *)”
+                 with
+                 [
+                     BaseType=wchar_t,
+                     StringTraits=StrTraitMFC<wchar_t>
+                 ]
+                 尝试匹配参数列表“(CString, _bstr_t)”时
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\shared\driveinfo.cpp(93): error C2664: “ATL::CStringT<BaseType,StringTraits>::CStringT(const VARIANT &)”: 不能将参数 1 从“const char [1]”转换为“const VARIANT &”
+                 with
+                 [
+                     BaseType=wchar_t,
+                     StringTraits=StrTraitMFC<wchar_t>
+                 ]
+                 原因如下: 无法从“const char [1]”转换为“const VARIANT”
+                 无构造函数可以接受源类型，或构造函数重载决策不明确
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\shared\driveinfo.cpp(167): warning C4244: “=”: 从“wchar_t”转换到“char”，可能丢失数据
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\shared\driveinfo.cpp(173): warning C4244: “=”: 从“wchar_t”转换到“char”，可能丢失数据
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\shared\driveinfo.cpp(208): error C2664: “int ATL::CStringT<BaseType,StringTraits>::Find(wchar_t,int) throw() const”: 不能将参数 1 从“const char [3]”转换为“wchar_t”
+                 with
+                 [
+                     BaseType=wchar_t,
+                     StringTraits=StrTraitMFC<wchar_t>
+                 ]
+                 没有使该转换得以执行的上下文
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\shared\driveinfo.cpp(212): warning C4244: “=”: 从“wchar_t”转换到“char”，可能丢失数据
+     1>g:\projects_me\vc2012 projects\prjtest4zlibwrapper\shared\driveinfo.cpp(238): error C2664: “int ATL::CStringT<BaseType,StringTraits>::Find(wchar_t,int) throw() const”: 不能将参数 1 从“const char [10]”转换为“wchar_t”
+                 with
+                 [
+                     BaseType=wchar_t,
+                     StringTraits=StrTraitMFC<wchar_t>
+                 ]
+                 没有使该转换得以执行的上下文
+         正在生成代码...
+     1>已完成生成项目“G:\Projects_Me\VC2012 Projects\prjTest4ZLibWrapper\prjTest4ZLibWrapper\prjTest4ZLibWrapper.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:14.14
